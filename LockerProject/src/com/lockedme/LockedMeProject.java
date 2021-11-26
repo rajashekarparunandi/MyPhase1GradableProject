@@ -47,13 +47,15 @@ public class LockedMeProject
 		int ch;
 		
 		System.out.println("***************************************************");
-		System.out.println("\t\tLockedMe.com");
+		System.out.println("\t\tWelcome");
+		System.out.println("\t      LockedMe.com");
+		System.out.println("    Developed by Rajashekar Parunandi");
 		System.out.println("***************************************************");
-		System.out.println("1. Display all files");
-		System.out.println("2. Add new file");
-		System.out.println("3. Delete a file");
-		System.out.println("4. Search a file");
-		System.out.println("5. Exit");
+		System.out.println("\t  1. Display all files");
+		System.out.println("\t  2. Add new file");
+		System.out.println("\t  3. Delete a file");
+		System.out.println("\t  4. Search a file");
+		System.out.println("\t  5. Exit");
 		System.out.println("***************************************************");
 		System.out.println("Enter your choice:");
 		ch=Integer.parseInt(obj.nextLine());
